@@ -6,6 +6,10 @@ Forthcoming
 -----------
 * ...
 
+1.4.1 (2024-06-13)
+------------------
+* [all] fix compilation on aarch64, `#51 <https://github.com/kobuki-base/kobuki_core/pull/51>`_
+
 1.4.0 (2022-10-24)
 ------------------
 * [demos] log levels demo added, `#42 <https://github.com/kobuki-base/kobuki_core/issues/42>`_
