@@ -1,7 +1,11 @@
 <map id="/github/workspace/src/driver/logging.cpp" name="/github/workspace/src/driver/logging.cpp">
-<area shape="rect" id="node1" title="Simple logging implementation." alt="" coords="54,5,205,47"/>
-<area shape="rect" id="node2" href="$logging_8hpp.html" title="Log levels and simple logging to screen." alt="" coords="67,95,192,136"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,184,77,211"/>
-<area shape="rect" id="node4" title=" " alt="" coords="102,184,157,211"/>
-<area shape="rect" id="node5" title=" " alt="" coords="181,184,293,211"/>
+<area shape="rect" id="Node000001" title="Simple logging implementation." alt="" coords="53,5,202,46"/>
+<area shape="rect" id="Node000002" href="$logging_8hpp.html" title="Log levels and simple logging to screen." alt="" coords="66,94,190,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,47,130,78,125,78,125,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,183,77,208"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="108,137,67,174,64,170,104,133"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="101,183,154,208"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="130,135,130,167,125,167,125,135"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="179,183,290,208"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="156,133,208,171,204,175,152,137"/>
 </map>

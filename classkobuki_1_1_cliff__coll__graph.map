@@ -1,5 +1,7 @@
 <map id="kobuki::Cliff" name="kobuki::Cliff">
-<area shape="rect" id="node1" title=" " alt="" coords="146,95,234,121"/>
-<area shape="rect" id="node2" href="$classpacket__handler_1_1payload_base.html" title="Provides base class for payloads." alt="" coords="5,5,196,32"/>
-<area shape="rect" id="node3" href="$structkobuki_1_1_cliff_1_1_data.html" title=" " alt="" coords="220,5,341,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="146,94,233,120"/>
+<area shape="rect" id="Node000002" href="$classpacket__handler_1_1payload_base.html" title="Provides base class for payloads." alt="" coords="5,5,195,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,40,179,92,175,96,121,44"/>
+<area shape="rect" id="Node000003" href="$structkobuki_1_1_cliff_1_1_data.html" title=" " alt="" coords="219,5,339,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="257,44,203,96,200,92,254,40"/>
 </map>

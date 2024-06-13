@@ -1,10 +1,19 @@
 <map id="/github/workspace/include/kobuki_core/logging.hpp" name="/github/workspace/include/kobuki_core/logging.hpp">
-<area shape="rect" id="node1" title="Log levels and simple logging to screen." alt="" coords="465,5,638,47"/>
-<area shape="rect" id="node2" href="$kobuki_8hpp.html" title="Device driver core interface." alt="" coords="309,184,482,225"/>
-<area shape="rect" id="node6" href="$kobuki_8cpp.html" title="Implementation for the kobuki device driver." alt="" coords="543,273,693,315"/>
-<area shape="rect" id="node7" href="$parameters_8hpp.html" title="Parameter configuration for the kobuki." alt="" coords="391,95,581,136"/>
-<area shape="rect" id="node8" href="$logging_8cpp.html" title="Simple logging implementation." alt="" coords="656,95,807,136"/>
-<area shape="rect" id="node3" href="$buttons_8cpp.html" title="Example program for kobuki button events." alt="" coords="5,273,156,315"/>
-<area shape="rect" id="node4" href="$chirp_8cpp.html" title="Example program for kobuki initialisation." alt="" coords="180,273,331,315"/>
-<area shape="rect" id="node5" href="$simple__loop_8cpp.html" title="Example program with a simple control loop." alt="" coords="355,273,518,315"/>
+<area shape="rect" id="Node000001" title="Log levels and simple logging to screen." alt="" coords="461,5,633,46"/>
+<area shape="rect" id="Node000002" href="$kobuki_8hpp.html" title="Device driver core interface." alt="" coords="305,183,477,223"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="447,47,408,66,391,79,377,95,369,116,369,139,383,182,378,183,364,140,364,115,372,93,387,75,405,61,445,42"/>
+<area shape="rect" id="Node000006" href="$kobuki_8cpp.html" title="Implementation for the kobuki device driver." alt="" coords="539,271,688,312"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="573,58,590,93,604,142,612,192,616,271,611,271,606,192,599,143,586,95,568,60"/>
+<area shape="rect" id="Node000007" href="$parameters_8hpp.html" title="Parameter configuration for the kobuki." alt="" coords="387,94,576,135"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="525,60,498,95,494,92,521,57"/>
+<area shape="rect" id="Node000008" href="$logging_8cpp.html" title="Simple logging implementation." alt="" coords="651,94,800,135"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="602,51,686,91,684,96,600,55"/>
+<area shape="rect" id="Node000003" href="$buttons_8cpp.html" title="Example program for kobuki button events." alt="" coords="5,271,155,312"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="306,231,151,273,150,268,304,225"/>
+<area shape="rect" id="Node000004" href="$chirp_8cpp.html" title="Example program for kobuki initialisation." alt="" coords="179,271,328,312"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="348,234,286,273,283,269,345,230"/>
+<area shape="rect" id="Node000005" href="$simple__loop_8cpp.html" title="Example program with a simple control loop." alt="" coords="353,271,514,312"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="409,236,426,270,421,272,405,239"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="456,227,564,268,562,273,454,232"/>
+<area shape="poly" id="edge7_Node000007_Node000002" title=" " alt="" coords="452,147,413,184,409,180,448,143"/>
 </map>

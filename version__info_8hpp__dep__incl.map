@@ -1,11 +1,20 @@
 <map id="/github/workspace/include/kobuki_core/version_info.hpp" name="/github/workspace/include/kobuki_core/version_info.hpp">
-<area shape="rect" id="node1" title="Version info for the kobuki driver." alt="" coords="261,5,455,47"/>
-<area shape="rect" id="node2" href="$kobuki_8hpp.html" title="Device driver core interface." alt="" coords="259,273,433,315"/>
-<area shape="rect" id="node7" href="$firmware_8hpp.html" title="Firmware version request packet payloads." alt="" coords="321,95,544,136"/>
-<area shape="rect" id="node3" href="$buttons_8cpp.html" title="Example program for kobuki button events." alt="" coords="5,363,156,404"/>
-<area shape="rect" id="node4" href="$chirp_8cpp.html" title="Example program for kobuki initialisation." alt="" coords="180,363,331,404"/>
-<area shape="rect" id="node5" href="$simple__loop_8cpp.html" title="Example program with a simple control loop." alt="" coords="355,363,518,404"/>
-<area shape="rect" id="node6" href="$kobuki_8cpp.html" title="Implementation for the kobuki device driver." alt="" coords="543,363,693,404"/>
-<area shape="rect" id="node8" href="$packets_8hpp.html" title="Packets convenience header." alt="" coords="322,184,495,225"/>
-<area shape="rect" id="node9" href="$firmware_8cpp.html" title="Constant definitions for compatible firmware versions." alt="" coords="520,184,671,225"/>
+<area shape="rect" id="Node000001" title="Version info for the kobuki driver." alt="" coords="258,5,451,46"/>
+<area shape="rect" id="Node000002" href="$kobuki_8hpp.html" title="Device driver core interface." alt="" coords="257,271,429,312"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="329,59,309,95,300,130,297,158,301,187,309,223,319,248,331,270,327,272,314,250,304,224,296,188,292,158,295,129,304,93,324,57"/>
+<area shape="rect" id="Node000007" href="$firmware_8hpp.html" title="Firmware version request packet payloads." alt="" coords="318,94,541,135"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="383,56,414,92,410,95,379,60"/>
+<area shape="rect" id="Node000003" href="$buttons_8cpp.html" title="Example program for kobuki button events." alt="" coords="5,360,155,401"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="269,320,141,362,139,357,268,315"/>
+<area shape="rect" id="Node000004" href="$chirp_8cpp.html" title="Example program for kobuki initialisation." alt="" coords="179,360,328,401"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="313,325,275,361,272,358,310,321"/>
+<area shape="rect" id="Node000005" href="$simple__loop_8cpp.html" title="Example program with a simple control loop." alt="" coords="353,360,514,401"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="376,321,415,358,411,361,372,325"/>
+<area shape="rect" id="Node000006" href="$kobuki_8cpp.html" title="Implementation for the kobuki device driver." alt="" coords="539,360,688,401"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="420,315,553,357,551,362,418,320"/>
+<area shape="rect" id="Node000008" href="$packets_8hpp.html" title="Packets convenience header." alt="" coords="319,183,492,223"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="422,151,413,183,408,182,417,149"/>
+<area shape="rect" id="Node000009" href="$firmware_8cpp.html" title="Constant definitions for compatible firmware versions." alt="" coords="516,183,665,223"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="481,140,555,180,553,185,478,145"/>
+<area shape="poly" id="edge8_Node000008_Node000002" title=" " alt="" coords="384,237,359,272,355,269,380,234"/>
 </map>

@@ -1,8 +1,13 @@
 <map id="/github/workspace/include/kobuki_core/packets/gp_input.hpp" name="/github/workspace/include/kobuki_core/packets/gp_input.hpp">
-<area shape="rect" id="node1" title="gpio data command packets." alt="" coords="85,5,259,61"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,117,64,143"/>
-<area shape="rect" id="node3" href="$payload__base_8hpp.html" title="Base class for payloads." alt="" coords="88,109,256,151"/>
-<area shape="rect" id="node6" href="$payload__headers_8hpp.html" title="Byte id&#39;s for the individual payload headers." alt="" coords="280,109,448,151"/>
-<area shape="rect" id="node4" title=" " alt="" coords="49,199,175,225"/>
-<area shape="rect" id="node5" title=" " alt="" coords="200,199,264,225"/>
+<area shape="rect" id="Node000001" title="gpio data command packets." alt="" coords="84,5,256,61"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,117,63,142"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="132,64,65,110,62,105,129,59"/>
+<area shape="rect" id="Node000003" href="$payload__base_8hpp.html" title="Base class for payloads." alt="" coords="86,109,254,150"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,62,173,94,167,94,167,62"/>
+<area shape="rect" id="Node000006" href="$payload__headers_8hpp.html" title="Byte id&#39;s for the individual payload headers." alt="" coords="278,109,446,150"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="227,59,309,99,307,104,224,64"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="47,198,173,223"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="157,152,131,187,126,183,153,148"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="197,198,260,223"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="187,148,213,183,209,187,182,152"/>
 </map>

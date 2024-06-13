@@ -1,5 +1,7 @@
 <map id="/github/workspace/include/kobuki_core/packet_handler/payload_base.hpp" name="/github/workspace/include/kobuki_core/packet_handler/payload_base.hpp">
-<area shape="rect" id="node1" title="Base class for payloads." alt="" coords="35,5,223,61"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,109,132,136"/>
-<area shape="rect" id="node3" title=" " alt="" coords="157,109,221,136"/>
+<area shape="rect" id="Node000001" title="Base class for payloads." alt="" coords="34,5,221,61"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,109,132,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,63,87,97,83,94,107,60"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="156,109,219,135"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,60,172,94,168,97,144,63"/>
 </map>

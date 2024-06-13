@@ -1,5 +1,7 @@
 <map id="kobuki::DockIR" name="kobuki::DockIR">
-<area shape="rect" id="node1" title=" " alt="" coords="141,95,250,121"/>
-<area shape="rect" id="node2" href="$classpacket__handler_1_1payload_base.html" title="Provides base class for payloads." alt="" coords="5,5,196,32"/>
-<area shape="rect" id="node3" href="$structkobuki_1_1_dock_i_r_1_1_data.html" title=" " alt="" coords="220,5,363,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="141,94,249,120"/>
+<area shape="rect" id="Node000002" href="$classpacket__handler_1_1payload_base.html" title="Provides base class for payloads." alt="" coords="5,5,195,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,39,183,92,180,96,122,43"/>
+<area shape="rect" id="Node000003" href="$structkobuki_1_1_dock_i_r_1_1_data.html" title=" " alt="" coords="219,5,360,31"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="267,43,210,96,206,92,263,39"/>
 </map>

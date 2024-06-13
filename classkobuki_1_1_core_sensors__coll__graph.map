@@ -1,5 +1,7 @@
 <map id="kobuki::CoreSensors" name="kobuki::CoreSensors">
-<area shape="rect" id="node1" title=" " alt="" coords="125,109,266,136"/>
-<area shape="rect" id="node2" href="$classpacket__handler_1_1payload_base.html" title="Provides base class for payloads." alt="" coords="5,13,196,39"/>
-<area shape="rect" id="node3" href="$structkobuki_1_1_core_sensors_1_1_data.html" title=" " alt="" coords="221,5,362,47"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="125,109,265,135"/>
+<area shape="rect" id="Node000002" href="$classpacket__handler_1_1payload_base.html" title="Provides base class for payloads." alt="" coords="5,13,195,39"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,47,184,107,181,110,121,51"/>
+<area shape="rect" id="Node000003" href="$structkobuki_1_1_core_sensors_1_1_data.html" title=" " alt="" coords="219,5,360,46"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="261,59,208,111,205,107,257,55"/>
 </map>
