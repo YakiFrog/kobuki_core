@@ -29,11 +29,11 @@ DiffDrive::DiffDrive() :
   last_tick_right(0),
   last_rad_left(0.0),
   last_rad_right(0.0),
-  point_velocity(2,0.0), // command velocities, in [m/s] and [rad/s]
-  radius(0.0), speed(0.0), // command velocities, in [mm] and [mm/s]
-  bias(0.23), // wheelbase, wheel_to_wheel, in [m]
-  wheel_radius(0.035), // radius of main wheel, in [m]
-  tick_to_rad(0.002436916871363930187454f),
+  point_velocity(2,0.0), // 速度指令 [m/s, rad/s]
+  radius(0.0), speed(0.0), // 速度指令 [mm/s, mm]
+  bias(0.485), // トレッド幅[m]
+  wheel_radius(0.205), // 車輪半径[m]
+  tick_to_rad(0.00071674029f), // エンコーダ値からラジアンに変換するための係数
   diff_drive_kinematics(bias, wheel_radius)
 {}
 
@@ -161,6 +161,8 @@ void DiffDrive::velocityCommands(const double &vx, const double &wz) {
   } else {
     speed  = (radius - 1000.0f * bias / 2.0f) * wz;
   }
+
+  std::cout << "speed: " << speed << ", radius: " << radius << std::endl;
   velocity_mutex.unlock();
   return;
 }
