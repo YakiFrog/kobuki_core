@@ -123,39 +123,45 @@ void DiffDrive::getWheelJointStates(double &wheel_left_angle, double &wheel_left
   state_mutex.unlock();
 }
 
+// KobukiRos::subscribeVelocityCommandで呼ばれる
 void DiffDrive::setVelocityCommands(const double &vx, const double &wz) {
   // vx: in m/s
   // wz: in rad/s
   std::vector<double> cmd_vel;
-  cmd_vel.push_back(vx);
-  cmd_vel.push_back(wz);
+  cmd_vel.push_back(vx); // m/s
+  cmd_vel.push_back(wz); // rad/s
   point_velocity = cmd_vel;
 }
 
+// 送信データの計算をしている場所
 void DiffDrive::velocityCommands(const double &vx, const double &wz) {
   // vx: in m/s
   // wz: in rad/s
   velocity_mutex.lock();
   const double epsilon = 0.0001;
 
-  // Special Case #1 : Straight Run
+  // 特別なケース1: 直進
   if( std::abs(wz) < epsilon ) {
     radius = 0.0f;
     speed  = 1000.0f * vx;
     velocity_mutex.unlock();
+    std::cout << "speed: " << speed << ", radius: " << radius << std::endl;
     return;
   }
 
+  // 回転半径[mm]の計算
   radius = vx * 1000.0f / wz;
-  // Special Case #2 : Pure Rotation or Radius is less than or equal to 1.0 mm
+
+  // 特別なケース2: 超信地回転か，半径が1.0mm以下
   if( std::abs(vx) < epsilon || std::abs(radius) <= 1.0f ) {
     speed  = 1000.0f * bias * wz / 2.0f;
     radius = 1.0f;
     velocity_mutex.unlock();
+    std::cout << "speed: " << speed << ", radius: " << radius << std::endl;
     return;
   }
 
-  // General Case :
+  // 通常の場合（移動 + 曲がる場合）
   if( radius > 0.0f ) {
     speed  = (radius + 1000.0f * bias / 2.0f) * wz;
   } else {
@@ -163,6 +169,7 @@ void DiffDrive::velocityCommands(const double &vx, const double &wz) {
   }
 
   std::cout << "speed: " << speed << ", radius: " << radius << std::endl;
+
   velocity_mutex.unlock();
   return;
 }
