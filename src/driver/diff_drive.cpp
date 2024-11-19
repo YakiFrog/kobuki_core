@@ -137,23 +137,33 @@ void DiffDrive::setVelocityCommands(const double &vx, const double &wz) {
 void DiffDrive::velocityCommands(const double &vx, const double &wz) {
   // vx: in m/s
   // wz: in rad/s
+
+  // vxをいじれるようにする
+  double vx_ = vx;
+
   velocity_mutex.lock();
   const double epsilon = 0.0001;
+
+  // 追加：vxが0.1m/s以下の場合に角速度が加わると制御量がクソ大きくなってガタガタなるので，制限をかける
+  // また，0.1m/s以下の場合に動かすことはない.
+  if( std::abs(vx_) < 0.1 ) {
+    vx_ = 0.0;
+  }
 
   // 特別なケース1: 直進
   if( std::abs(wz) < epsilon ) {
     radius = 0.0f;
-    speed  = 1000.0f * vx;
+    speed  = 1000.0f * vx_;
     velocity_mutex.unlock();
     std::cout << "speed: " << speed << ", radius: " << radius << std::endl;
     return;
   }
 
   // 回転半径[mm]の計算
-  radius = vx * 1000.0f / wz;
+  radius = vx_ * 1000.0f / wz;
 
   // 特別なケース2: 超信地回転か，半径が1.0mm以下
-  if( std::abs(vx) < epsilon || std::abs(radius) <= 1.0f ) {
+  if( std::abs(vx_) < epsilon || std::abs(radius) <= 1.0f ) {
     speed  = 1000.0f * bias * wz / 2.0f;
     radius = 1.0f;
     velocity_mutex.unlock();
