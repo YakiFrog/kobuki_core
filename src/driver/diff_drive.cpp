@@ -164,7 +164,18 @@ void DiffDrive::velocityCommands(const double &vx, const double &wz) {
 
   // 特別なケース2: 超信地回転か，半径が1.0mm以下
   if( std::abs(vx_) < epsilon || std::abs(radius) <= 1.0f ) {
-    speed  = 1000.0f * bias * wz / 2.0f;
+    speed  = 1000.0f * bias * wz / 2.0f; 
+    if (std::abs(speed) < 50.0f) // 最低でも50mm/sは動かす(汚い書き方) 24/11/22
+    {
+      if (speed > 0.0f) 
+      {
+        speed = 50.0f;
+      } 
+      else 
+      {
+        speed = -50.0f;
+      }
+    }
     radius = 1.0f;
     velocity_mutex.unlock();
     std::cout << "speed: " << speed << ", radius: " << radius << std::endl;
